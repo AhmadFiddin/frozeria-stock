@@ -189,7 +189,7 @@
     <div class="border mt-5 p-4">
 
         <h2 class="font-bold text-gray-800 mb-3">
-            Informasi Pengembang
+            Biodata Mahasiswa
         </h2>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
@@ -211,7 +211,7 @@
 
             <div>
                 <span class="font-semibold">Alamat:</span>
-                Malang, Jawa Timur
+                ds. Keboharan, kec. Krian, kab. Sidoarjo, Jawa Timur
             </div>
 
             <div>

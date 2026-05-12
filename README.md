@@ -64,3 +64,62 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+✅ Checklist Requirement Frozeria
+Gunakan checklist ini untuk memantau progres pengerjaan Anda:
+
+1. Halaman Utama (Dashboard)
+[ ] Terdapat card informasi Stok Menipis (stok < 20).
+
+[ ] Terdapat card informasi Stok Habis (stok = 0).
+
+[ ] Fitur Pencarian: Berdasarkan nama barang (Enter/Klik Cari).
+
+[ ] Fitur Filter: Dropdown berdasarkan kategori.
+
+[ ] Tabel menampilkan Nama Barang, Kategori, Stok, dan Aksi (Detail, Edit, Hapus).
+
+[ ] Button Tambah Barang mengarah ke form input.
+
+2. Manajemen Barang (CRUD Item)
+[ ] Tambah/Edit Barang: Form mencakup Nama, Kategori (Dropdown dari DB), Stok, Deskripsi, dan Upload Foto.
+
+[ ] Detail Barang: Menampilkan deskripsi lengkap dan foto barang.
+
+[ ] Hapus Barang: Menghapus data dari database dan file foto di storage.
+
+3. Manajemen Kategori
+[ ] Terdapat tabel daftar kategori.
+
+[ ] Fitur Tambah/Edit Kategori.
+
+[ ] Fitur Hapus Kategori (dengan konfirmasi).
+
+4. Komponen Interaktif & Dialog
+[ ] Modal Konfirmasi Hapus: Muncul saat tombol hapus diklik (Ya/Batal).
+
+[ ] Logika "Ya, Hapus" berfungsi menghapus data permanen.
+
+[ ] Logika "Batal" hanya menutup modal tanpa aksi.
+
+5. Halaman Bantuan & Informasi
+[ ] Halaman bantuan berisi panduan penggunaan staf.
+
+[ ] Bagian footer/bawah halaman bantuan menampilkan detail identitas pengembang.
+
+📄 Detail Informasi Pengembang
+Tambahkan bagian ini di bagian paling bawah halaman Bantuan pada aplikasi Anda.
+
+Profil Pengembang
+Nama: [Isi Nama Anda]
+
+NIM: [Isi NIM Anda]
+
+Kelas: [Isi Kelas Anda]
+
+Alamat: [Isi Alamat Anda]
+
+No. Telepon: [Isi Nomor Telepon]
+
+Email: [Isi Email Anda]

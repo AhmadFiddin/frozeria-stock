@@ -210,9 +210,10 @@
             </form>
 
             <!-- Edit -->
-            <button type="submit" class="border border-green-500 text-green-600 px-5 py-2 hover:bg-green-100 transition">
+            <a href="{{ route('products.edit', $product->id) }}"
+                class="border border-green-500 text-green-600 px-5 py-2 hover:bg-green-100 transition">
                 Edit Barang
-            </button>
+            </a>
 
         </div>
 

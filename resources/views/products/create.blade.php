@@ -219,7 +219,7 @@
                 </a>
 
                 <!-- Simpan -->
-                <button type="submit" class="bg-lime-600 hover:bg-lime-700 text-white px-5 py-2">
+                <button type="submit" class="border border-green-500 text-green-600 px-5 py-2 hover:bg-green-100 transition">
                     Simpan Barang
                 </button>
 

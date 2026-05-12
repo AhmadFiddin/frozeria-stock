@@ -40,7 +40,7 @@ class ProductController extends Controller
 
         $lowStock = Product::whereColumn(
             'stock',
-            '<=',
+            '<',
             'minimum_stock'
         )->where('stock', '>', 0)->count();
 

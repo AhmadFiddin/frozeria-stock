@@ -151,7 +151,7 @@
                                 <span class="text-red-600 font-semibold">
                                     {{ $product->stock }}
                                 </span>
-                            @elseif($product->stock <= $product->minimum_stock)
+                            @elseif($product->stock < $product->minimum_stock)
                                 <span class="text-yellow-600 font-semibold">
                                     {{ $product->stock }}
                                 </span>
